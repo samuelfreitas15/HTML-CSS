@@ -53,12 +53,12 @@ main p {
 }
 
 #joaninha {
-    background: darkgreen url('imagens/background001.jpg') center no-repeat fixed;
+    background: darkgreen url('imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
 }
 
 #folha {
-    background: darkgray url('imagens/background002.jpg') center no-repeat fixed;
+    background: darkgray url('imagens/background002.jpg') right center no-repeat fixed;
     background-size: cover;
 }
 
@@ -71,7 +71,8 @@ main p.imagem {
 
 footer {
     background-color: black;
-    padding: 10px;
+    font-size: 1em;
+    padding: 2vw;
     color: white;
     text-align: center;
 }
