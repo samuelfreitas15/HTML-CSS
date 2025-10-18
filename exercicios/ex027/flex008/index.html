@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order</title>
+    <title>Align Self</title>
     <style>
         div.container {
             background-color: lightsalmon;
             display: flex;
             flex-flow: row wrap;
+            align-items: flex-start;
+            height: 400px;
         }
 
         div.item {
@@ -19,31 +21,32 @@
         }
 
         div#i1 {
-            order: 0;
+            
         }
 
         div#i2 {
-            order: -2;
+            align-self: flex-start;
+            
         }
 
         div#i3 {
-            order: 4;
+            align-self: flex-end;
         }
 
         div#i4 {
-            order: 8;
+            align-self: center;
         }
 
         div#i5 {
-            order: 2;
+        
         }
 
         div#i6 {
-            order: 0;
+            align-self: stretch;
         }
 
         div#i7 {
-            order: -4;
+        
         }
 
     </style>
